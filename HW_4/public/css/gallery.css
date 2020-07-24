@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: slategrey;
+    margin: 3% 0 0 0;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+.gallery__link{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery__img{
+    width: 300px;
+    margin: 5%;
+    filter: grayscale(100%);
+    transition: all 0.6s linear;
+}
+.gallery__img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
