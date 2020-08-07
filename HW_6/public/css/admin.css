@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+h1 {
+    text-align: center;
+    color: rgb(213, 118, 35);
+    margin: 3% 0 0 0;
+  }
+  
+.form {
+    display: flex;
+    flex-direction: column;
+  }
+.form__input {
+    width: 300px;
+    margin: 10px 0;
+}
+label {
+    color: rgb(213, 118, 35);
+    width: 300px;
+}
